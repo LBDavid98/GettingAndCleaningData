@@ -48,7 +48,7 @@ run_analysis <- function() {
 
 
 # Project Step 5: Export tidy data set
-  write.table(tidy_data, "tidydata.txt", row.name=FALSE)
+  write.table(tidy_data, "tidydata.txt", row.names=FALSE)
 
 # Clean house
   rm(tidy_data)
